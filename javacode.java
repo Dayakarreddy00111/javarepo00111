@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class LoginSystem {
     public static void main(String[] args) {
         // Preset username and password
-        String validUsername = "admin";
-        String validPassword = "password123";
+        String validUsername = "admin123";
+        String validPassword = "password";
 
         Scanner scanner = new Scanner(System.in);
 
@@ -21,5 +21,10 @@ public class LoginSystem {
         }
 
         scanner.close();
+    }
+}
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
     }
 }

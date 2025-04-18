@@ -16,7 +16,7 @@ public class LoginSystem {
 
         if (inputUsername.equals(validUsername) && inputPassword.equals(validPassword)) {
             System.out.println("Login successful. Welcome, " + inputUsername + "!");
-        } else {
+        }
             System.out.println("Invalid username or password.");
         }
 
